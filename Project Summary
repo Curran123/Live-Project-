@@ -1,0 +1,80 @@
+#Live Project Summary
+
+####I have included examples of code that I worked on over the course of a two-week sprint, in which an task from a client was simulated.
+####We were to make numerous changes to a theatre company's website per their exact specifications. My own work was entirely front-end,
+####and in that time, I completed three key tasks.
+
+
+
+######The first task saw me make several changes to the login page, including adjusting the input fields for the email and password,
+######which was accomplish through a handful of simple classes on the CSS page:
+
+######/*This class was added to move most of the content of the login page to the left*/ 
+.loginpadding {
+    padding-left: 50px;
+}
+
+######/*This class was also added to move certain elements on the login page left*/
+.loginhtwo{
+    padding-left: 65px;
+    padding-top: 50px;
+}
+######/*This class was added to move the login button more to the right*/
+.loginhthree{
+    padding-right: 45px;
+    padding-left: 5px;
+}
+
+
+They were in turn implemented on the login page itself, along with bootstrap grids to accomodate a variety of screen sizes:
+
+
+
+
+######In the third and final task, I created a CSS selector in order to resolve a priority conflict between a class and an ID which had prevented me 
+######from change the font color of the navigation bar's drop-down menus. 
+
+####### #navbarSupportedContent .color {
+    color: #212529
+}
+
+#######It was subsequently applied to the layout page:
+
+#######<!--Events-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    
+######<!--Company-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Company
+                    </a>
+                    
+######<!--Admin-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle color" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admin
+                    </a>
+                    
+######<!--Subscriber-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Subscriber
+                    </a>
+                    
+                    
+######The second part of the task was to adjust the speed at which the navigation bar and logo expanded and shrank when scrolling,
+######which was resolved with the following change on the CSS page:
+###### #menu {
+            transition: 0.8s;
+            padding: 20px;
+        }
+
+        #logo {
+            transition: 0.8s;
+        }
+        
+   
+   
