@@ -1,4 +1,4 @@
-<h1>I have included examples of code that I worked on over the course of a two-week sprint, in which an task from a client was simulated.
+<h1>I have included examples of code that I worked on over the course of a two-week sprint, in which a project issued by a client was simulated.
 </h1>
 
 We were to make numerous changes to a theatre company's website per their exact specifications. My own work was entirely front-end,
